@@ -29,7 +29,7 @@ A [ROBOTIS TurtleBot3 waffle](https://emanual.robotis.com/docs/en/platform/turtl
 - Robot, up and running with a Jetson Nano.
 ![robot](https://user-images.githubusercontent.com/72912013/166982449-94f8bd30-a76f-4b47-b273-4e46f4b256a9.jpg)
 
-- Robot's POV of the scene ahead as captured by the camera stream as-is, and with the horizontal (yaw rotation) adjustment shown at the bottom of the frame.
+- Robot's POV of the scene ahead via camera stream as-is, and with yaw adjustment based on centeroid calculations.
 ![image](https://user-images.githubusercontent.com/72912013/166972908-56effa3d-bc24-4c42-9891-4a79feef7271.png)
 
 - Experimenting with different color spaces using basic color masking and a [bitwise_and](https://docs.opencv.org/4.1.1/d2/de8/group__core__array.html#ga60b4d04b251ba5eb1392c34425497e14) operator on each pixel to isolate the object of interest.
